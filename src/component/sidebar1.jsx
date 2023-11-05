@@ -1,6 +1,6 @@
 import { InputBar } from "./inputBar"
 import IconSelector from "./iconSelector"
-import { getDay, getFormattedDate, absFormattedTime } from "../assets/iconss/helperFunction"
+import { getDay, getFormattedDate, absFormattedTime } from "../assets/icons/helperFunction"
 export default function MainDetails({data, setCity}){
     
     return(

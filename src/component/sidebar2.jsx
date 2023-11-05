@@ -1,4 +1,4 @@
-import { Thermometer, Humidity, Wind, Rain} from "../assets/iconss/icons"
+import { Thermometer, Humidity, Wind, Rain} from "../assets/icons/icons"
 
 export default function SideBar({data}){
     return(

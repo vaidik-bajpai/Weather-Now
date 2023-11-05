@@ -11,7 +11,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: rgba(0, 0, 0, 0.5);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -36,7 +36,7 @@ body {
   width: 100vw;
   height: 100vh;
 
-  background: url('./assets/img/background_img-fotor-20231105234045.png');
+  background: url('./assets/img/pink.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -59,12 +59,9 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+button:hover{
+  border: 1px solid whitesmoke;
 }
 
 @media (prefers-color-scheme: light) {

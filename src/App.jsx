@@ -12,7 +12,7 @@ function App() {
   const [error, setError] = useState(null)
   const [loading, setLoading] = useState(true)
   const [daily, setDaily] = useState(true)
-  const [hour, setHour] = useState(3)
+  const [hour, setHour] = useState(1)
   const [start, setStart] = useState(false)
 
   function filterData(info){
