@@ -42,7 +42,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetch(`http://api.weatherapi.com/v1/forecast.json?key=${import.meta.env.VITE_SOME_KEY}&q=${city}&days=7&aqi=no&alerts=no`, {
+    fetch(`https://api.weatherapi.com/v1/forecast.json?key=${import.meta.env.VITE_SOME_KEY}&q=${city}&days=7&aqi=no&alerts=no`, {
       mode: "cors"
     })
       .then((response) => {
